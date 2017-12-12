@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="footer">
     <ul class="footer-cont">
-        <li>1</li>
+        <li><a href="/list.html">1</a></li>
         <li>2</li>
         <li>3</li>
         <li>4</li>

@@ -14,7 +14,9 @@
 import HomeHeader from '../components/HomeHeader'   /* 本页面中用到了HomeHeader组件，所以就需要在这里引入一下 */
 import CommonFooter from '../components/commonFooter'
 import List from '../components/list'
+
 export default {
+  name: 'gb-home',
   data () {
       return {
           items: []   /* 定义一个空数组数据items */

@@ -68,6 +68,11 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       template: 'index.html',
       inject: true
     }),
+    new HtmlWebpackPlugin({
+      filename: 'list.html',
+      template: 'list.html',
+      inject: true
+    })
   ]
 })
 
